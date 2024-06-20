@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #273549;
 }
 
 .karla-font {
@@ -51,7 +52,6 @@ h2 {
 .image-btn {
     width: 191px;
     height: 42px;
-    background-image: url(Button.png);
     background-size: cover;
     border: none;
     border-radius: 6px;
@@ -78,11 +78,17 @@ button {
 
 .container-buttons {
    display: flex;
+   flex-direction: row;
    justify-content: space-between;
    color: #55F991;
+   padding: 20px;
 }
 
 .pass-one pass-two {
     background-color: #273549;
     color: #55F991;
+}
+
+.pass-one {
+    margin-right: 10px;
 }
