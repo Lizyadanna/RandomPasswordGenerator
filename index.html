@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="index.js" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -26,12 +25,15 @@
         <span class="color-text">random password</span>
       </h1>
       <h2>Never use an insecure password again.</h2>
-      <button>Generate passwords</button>
+      <button class="gen-pass" onclick="generatePasswords()">
+        Generate passwords
+      </button>
       <div class="line"></div>
       <div class="container-buttons">
-        <button class="pass-one">dgd</button>
-        <button class="pass-two"></button>
+        <button class="pass-one" id="pass-one"></button>
+        <button class="pass-two" id="pass-two"></button>
       </div>
     </div>
   </body>
+  <script src="index.js"></script>
 </html>
